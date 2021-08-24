@@ -1,0 +1,31 @@
+/* 改变主题色变量 */
+$--color-primary: teal;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+.el-container {
+  height: 100%;
+}
+
+.el-header {
+  background-color: #b3c0d1;
+  color: #333;
+  line-height: 60px;
+}
+
+.el-aside {
+  color: #333;
+}

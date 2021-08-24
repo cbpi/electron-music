@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style>
-/* CSS */
+#app {
+  position: relative;
+}
 </style>

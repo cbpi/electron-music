@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: ['html'],
   rules: {
+    'linebreak-style': ['off', 'windows'],
     semi: ['error', 'never', { beforeStatementContinuationChars: 'never' }],
     'semi-spacing': ['error', { after: true, before: false }],
     'semi-style': ['error', 'first'],
