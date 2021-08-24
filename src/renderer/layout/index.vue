@@ -1,8 +1,9 @@
 <template>
   <div id="mainContainer">
-    <app-header></app-header>
     <app-sidebar></app-sidebar>
-    <app-main></app-main>
+    <app-main>
+      <app-header></app-header>
+    </app-main>
     <control-bar></control-bar>
   </div>
 </template>

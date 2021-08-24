@@ -1,5 +1,14 @@
+@import "./fonts/iconfont.css";
+@import "./reseter.css";
+
 html,
 body {
   height: 100%;
   margin: 0px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #010101;
 }

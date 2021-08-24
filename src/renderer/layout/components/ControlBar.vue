@@ -28,7 +28,7 @@ export default {
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 80px;
+  height: 59px;
   width: 100%;
   background-color: red;
 }
