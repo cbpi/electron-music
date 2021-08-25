@@ -20,6 +20,12 @@ export default new Router({
       ]
     },
     {
+      path: '/login',
+      component: () => import('@/view/login/index'),
+      name: 'login',
+      meta: { title: '登录' }
+    },
+    {
       path: '*',
       redirect: '/index'
     }

@@ -16,6 +16,8 @@ module.exports = {
   },
   plugins: ['html'],
   rules: {
+    'import/prefer-default-export': 'off',
+    'arrow-parens': 0,
     'linebreak-style': ['off', 'windows'],
     semi: ['error', 'never', { beforeStatementContinuationChars: 'never' }],
     'semi-spacing': ['error', { after: true, before: false }],
@@ -34,6 +36,8 @@ module.exports = {
     'import/extensions': 0,
     'import/newline-after-import': 0,
     'no-multi-assign': 0,
+    'no-unused-vars': 'off',
+    'no-console': 'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }

@@ -1,7 +1,7 @@
 <template>
   <div id="sideBar">
     <div class="np-control"></div>
-    <div class="login">
+    <div class="login" @click="handleLogin">
       <img src="../../assets/user.png" width="45" height="45" alt="" />
       <span>未登陆</span>
     </div>
@@ -42,6 +42,8 @@
 </template>
 
 <script>
+import { ipcRenderer } from 'electron' // eslint-disable-line
+
 export default {
   name: '',
   props: [''],
@@ -57,7 +59,11 @@ export default {
 
   mounted() {},
 
-  methods: {},
+  methods: {
+    handleLogin() {
+      ipcRenderer.send('login')
+    }
+  },
 
   watch: {}
 }
