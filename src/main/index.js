@@ -33,10 +33,10 @@ function createTray() {
 function createLoginWindow() {
   //  登录窗口
   loginWindow = new BrowserWindow({
-    height: 600,
-    frame: false,
+    height: 530,
+    // frame: false,
     useContentSize: true,
-    width: 300,
+    width: 350,
     parent: mainWindow
   })
   loginWindow.loadURL(loginURL)

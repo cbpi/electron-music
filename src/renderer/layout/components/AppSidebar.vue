@@ -80,6 +80,7 @@ export default {
     background-color: #e8e7e7;
   }
   .login {
+    cursor: pointer;
     display: flex;
     flex-direction: inherit;
     align-items: center;
