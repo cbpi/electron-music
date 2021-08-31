@@ -14,7 +14,7 @@ if (process.env.NODE_ENV !== 'development') {
 let mainWindow
 let loginWindow
 const winURL = process.env.NODE_ENV === 'development' ? 'http://localhost:9080' : `file://${__dirname}/index.html`
-const loginURL = process.env.NODE_ENV === 'development' ? 'http://localhost:9080/#/login' : `file://${__dirname}/index.html#/login`
+const loginURL = process.env.NODE_ENV === 'development' ? 'http://localhost:9080/#/user' : `file://${__dirname}/index.html#/user`
 
 function createTray() {
   // 配置小图标 macOS在顶部，window在托盘

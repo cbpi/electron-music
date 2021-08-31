@@ -12,3 +12,18 @@ a {
   text-decoration: none;
   color: #010101;
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+#MazPhoneNumberInput .country-selector__input {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.input-phone-number .input-tel__input {
+  border-bottom-right-radius: 0 !important;
+  margin-left: 0;
+  border-left: 0;
+}
