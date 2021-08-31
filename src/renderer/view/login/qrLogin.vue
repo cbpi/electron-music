@@ -10,7 +10,7 @@
         <p>使用<b @click="qrLogin" style="color: rgb(6, 84, 121);cursor: pointer;">网易云APP</b>扫码登录</p>
       </div>
     </div>
-    <p style="cursor:pointer"><router-link to="/user/numlogin">选择其他登陆模式 ></router-link></p>
+    <p style="cursor:pointer"><router-link to="/user/numlogin">选择其它登陆模式 ></router-link></p>
     <!-- <p style="cursor:pointer" @click="toReset">选择其他登陆模式 ></p> -->
   </div>
 </template>

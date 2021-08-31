@@ -39,9 +39,12 @@ service.interceptors.response.use(
    */
   (response) => {
     const res = response.data
+    console.log(res)
     if (res.code === 401) {
       localStorage.clear()
       window.location.href = '/'
+    } else if (res.code === 502) {
+      this.$message.error(res.msg)
     }
     return res
   },

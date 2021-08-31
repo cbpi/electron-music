@@ -6,11 +6,11 @@
         <VuePhoneNumberInput v-model="phontNum" />
         <div class="password-input">
           <input type="password" class="password" v-model="password" placeholder="设置登陆密码" />
-          <small>密码8-20位，至少包含字母/数字/字符2中组合</small>
         </div>
+        <p style="margin-bottom: 20px"><small>密码8-20位，至少包含字母/数字/字符2中组合</small></p>
       </div>
       <el-button type="danger" style="width:100%; padding:10px;margin-bottom: 30px">下一步</el-button>
-      <p><small @click="goBack" class="pointer"> < 返回登陆</small></p>
+      <p><small @click="goBack" class="pointer"> &#60; 返回登陆</small></p>
     </div>
   </div>
 </template>
@@ -40,7 +40,7 @@ export default {
   position: relative;
   text-align: center;
   .num-wrap {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     position: relative;
     #MazPhoneNumberInput .country-selector__input {
@@ -59,7 +59,7 @@ export default {
     }
     .password-input {
       position: relative;
-      margin-bottom: 80px;
+      margin-bottom: 10px;
       .reset {
         cursor: pointer;
         position: absolute;
